@@ -4,7 +4,8 @@
 
 | Name | SRN |
 |------|-----|
-| J Sanjay Varma | PES1UG24CS194 |
+| J Jose Tanmay | PES1UG24CS200 |
+| Jai Boonlia   | PES1UG24CS197 |
 ---
 
 ## 2. Build, Load, and Run Instructions
