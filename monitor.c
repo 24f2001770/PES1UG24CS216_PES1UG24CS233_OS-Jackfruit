@@ -73,8 +73,8 @@ static void log_soft_limit_event(const char *container_id,
                                  long rss_bytes)
 {
     printk(KERN_WARNING
-           "[container_monitor] SOFT LIMIT container=%s pid=%d rss=%ld limit=%lu\n",
-           container_id, pid, rss_bytes, limit_bytes);
+    "WARNING - SOFT LIMIT REACHED: container=%s pid=%d rss=%ld limit=%lu\n",
+    container_id, pid, rss_bytes, limit_bytes);
 }
 
 static void kill_process(const char *container_id,
@@ -91,8 +91,8 @@ static void kill_process(const char *container_id,
     rcu_read_unlock();
 
     printk(KERN_WARNING
-           "[container_monitor] HARD LIMIT container=%s pid=%d rss=%ld limit=%lu\n",
-           container_id, pid, rss_bytes, limit_bytes);
+    "HARD LIMIT REACHED - PROCESS TERMINATED: container=%s pid=%d rss=%ld limit=%lu\n",
+    container_id, pid, rss_bytes, limit_bytes);
 }
 
 /* TODO 3: timer callback */
