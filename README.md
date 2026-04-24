@@ -4,8 +4,8 @@
 
 | Name | SRN |
 |------|-----|
-| J Jose Tanmay | PES1UG24CS200 |
-| Jai Boonlia   | PES1UG24CS197 |
+| Karan Mahesh | PES1UG24CS216 |
+| Kotta Tharith Reddy  | PES1UG24CS233 |
 ---
 
 ## 2. Build, Load, and Run Instructions
